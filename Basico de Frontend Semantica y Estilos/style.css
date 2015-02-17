@@ -1,0 +1,73 @@
+body{
+	background: #efc792;
+	font-family: Arial;
+	font-size: 16px;
+}
+
+header{
+	border: 1px solid red;
+	background: #98d1e3;
+	color: white;
+	overflow: hidden;
+	padding: 1rem;/*rem es una medida que hereda directamente del body, es menos confusa que em ya que em depende de su padre más cercano*/
+	}
+
+header h1{
+	font-size: 1.6rem;
+	font-weight: normal;
+	margin: 0 0 0 0.5rem;
+	float: left;
+	}
+
+header #logo img{
+	width: 125px;
+	border-radius: 80px;
+	float: left;
+}
+
+nav{
+	background: #eaf0be;
+	text-align: center;
+	padding: 1rem;
+}
+nav li{
+	display: inline;
+	margin: 0 1rem;
+}
+
+section{
+	font-size: 0;
+	margin: 0.5% 0%;
+}
+
+.item{
+	width: 49%;
+	margin: 0.5%;
+	background: #b2dbbb;
+	display: inline-block;/*Ocupa el ancho del contenido*/
+	overflow: hidden;
+	font-size: 1rem;
+}
+
+.figure_item{
+	float: left;
+}
+
+.figure_item img{
+	width: 213px;
+}
+
+footer{
+	background: #bdb9a1;
+	border: 1px solid red;
+	text-align: center;
+	padding: 1rem;
+}
+
+footer p{
+	margin: 0.5rem 0;
+}
+
+.title_item .data_item{
+
+}
